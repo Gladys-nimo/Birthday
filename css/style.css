@@ -4,3 +4,7 @@ body{
     background-size: cover;
     position: relative;
 }
+h1{
+    font-style: italic;
+    font-weight: bold;
+}
