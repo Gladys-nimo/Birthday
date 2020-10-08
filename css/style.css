@@ -2,9 +2,25 @@ body{
     background-image: url(../img/download.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+ 
+}
+p{
+    text-align: center;
+    padding: 100px;
+    font-size: 40px;
+}
+.img{
+    width: 40%;
+    height: 80%;
 }
 h1{
     font-style: italic;
     font-weight: bold;
+}
+.about-container {
+        width:60%;
+        height: 100px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
 }
