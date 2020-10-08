@@ -8,11 +8,11 @@ function myFunction() {
   var day = document.getElementById("day").value;
   var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-var gladys = newDate();
-gladys.setDate (parseInt(day));
-gladys.setMonth (parseInt(month));
-gladys.setYear (parseInt(year));
-var g = gladys.getDay();
+
+//gladys.setDate (parseInt(day));
+//gladys.setMonth (parseInt(month));
+//gladys.setYear (parseInt(year));
+//var g = gladys.getDay();//
 
 
     var gender = document.querySelector('input[name="gender"]:checked').value;
@@ -27,17 +27,44 @@ var g = gladys.getDay();
     switch(gender){
         case "male":
 
-    }if(g==0) {
-alert("I was born on Sunday");
-} else if(g==1) {
-   alert("I was born on Monday");
-} else if(g==2) {
-    alert("I was born on Tuesday");
-} else if(g==3) {
-    alert("I was born on Wednesday");
-}  else if(g==4) {
-    alert("I was born Thursday");
-} else if(g==5) {
-    alert("I was born Friday");
-} else if(g==6) {
-    alert("I was born on Sunday");
+    if(dayOfWeek==0) {
+document.getElementById("myFunction").innerHTML ="Monday" + maleName[0];
+} else if(dayOfWeek==1) {
+    document.getElementById("myFunction").innerHTML ="Monday" + maleName[1]; ;
+} else if(dayOfWeek==2) {
+    document.getElementById("myFunction").innerHTML ="Monday" + maleName[2];
+} else if(dayOfWeek==3) {
+   
+}  document.getElementById("myFunction").innerHTML ="Monday" + maleName[3];
+else if(g==4) {
+    
+    document.getElementById("myFunction").innerHTML ="Monday" + maleName[4];
+} else if(dayOfWeek==5) {
+   
+    document.getElementById("myFunction").innerHTML ="Monday" + maleName[5];
+} else if(dayOfWeek==6) {
+  
+    document.getElementById("myFunction").innerHTML ="Monday" + maleName[6];
+}
+break;
+case "female":
+    f(dayOfWeek==0) {
+        document.getElementById("myFunction").innerHTML ="Monday" + maleName[0];
+        } else if(dayOfWeek==1) {
+            document.getElementById("myFunction").innerHTML ="Monday" + maleName[1]; ;
+        } else if(dayOfWeek==2) {
+            document.getElementById("myFunction").innerHTML ="Monday" + maleName[2];
+        } else if(dayOfWeek==3) {
+           
+        }  document.getElementById("myFunction").innerHTML ="Monday" + femaleName[3];
+        else if(g==4) {
+            
+            document.getElementById("myFunction").innerHTML ="Monday" + femaleName[4];
+        } else if(dayOfWeek==5) {
+           
+            document.getElementById("myFunction").innerHTML ="Monday" + femaleName[5];
+        } else if(dayOfWeek==6) {
+          
+            document.getElementById("myFunction").innerHTML ="Monday" + femaleName[6];
+        }
+        break}
