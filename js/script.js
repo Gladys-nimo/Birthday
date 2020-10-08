@@ -13,7 +13,21 @@ gladys.setDate (parseInt(day));
 gladys.setMonth (parseInt(month));
 gladys.setYear (parseInt(year));
 var g = gladys.getDay();
-if(g==0) {
+
+
+    var gender = document.querySelector('input[name="gender"]:checked').value;
+    if (gender[0].checked == true) {
+        gender == "male";
+    }else if(gender[1].checked ==true){
+        gender = "female";
+    }
+    else {
+
+    }
+    switch(gender){
+        case "male":
+
+    }if(g==0) {
 alert("I was born on Sunday");
 } else if(g==1) {
    alert("I was born on Monday");
