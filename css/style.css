@@ -2,6 +2,8 @@ body{
     background-image: url(../img/download.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 40px;
+    padding-bottom: 0px;
  
 }
 p{
@@ -23,4 +25,8 @@ h1{
         background-color: #ffffff;
         border-radius: 20px;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+}
+.img{
+    align-items: center;
+    border-radius: 8%;
 }
