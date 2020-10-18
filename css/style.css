@@ -62,3 +62,7 @@ h1{
     height: 100px;
    align-items: center;
 }
+footer{
+    align-items: center;
+    padding-right: 60%;
+}
