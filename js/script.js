@@ -17,10 +17,15 @@ function myFunction(event) {
       var d1 = Math.floor(d);
       var akanMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kwame"];
       var akanFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+      var days = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursady", "Friday", "SAturday"];
 
 
       if (gender === "male" && d1 >= 0 && d1 <= 6) {
-          alert("Your Akan name is " + akanMale[d1] + "and you were born on" + [d1]);
+          alert("Your Akan name is " + akanMale[d1]);
+          
+          document.getElementById("results").innerHTML = " you were born on Monday and your Akan name is " + akanMale[d1];
+          document.getElementById("results").innerHTML = "Tuesday" + akanMale[d2];
+
       }
       else if (gender === "female" && d1 >= 0 && d1 <= 6) {
           alert("Your Akan name is " + akanFemale[d1])
