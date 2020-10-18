@@ -18,16 +18,32 @@
         This Application is used to display the day you were born, and also display your Akan Name.
     </p>
     <h3>Lets check your Akan name!</h3>
-    <form action="" class="about-container">
+    <form action="" class="form" id="form">
+        <div class="form-control">
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+       
+
+        </div>
+        <select name="gender" id="gender">
+            <option value="gender">gender</option>
+            <option value="female">female</option>
+            <option value="male">gender</option>
+        
+        </select>
+        <button>submit</button>
+    </form>
+    <!-- <form action="" class="about-container">
         <input type="text" name="dateProvided" id="dateProvided" placeholder="mm/dd/yyyy">
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
-        <button onclick="myFunction(); return getAkanName;">submit</button>
-        <p id="message">
-        
-        </p>
+        <!-- <button onclick="myFunction(); return false;">submit</button> -->
+        <!-- <button onclick="myFunction()">submit</button> -->
+        <!-- <p id="message"> -->
+    
+       
         
 
          
